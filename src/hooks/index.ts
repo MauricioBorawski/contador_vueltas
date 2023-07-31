@@ -1,2 +1,1 @@
-export * from "./useSecondaryCounters";
-
+export * from './useSecondaryCounters';
