@@ -13,7 +13,7 @@ function App() {
     };
 
     return (
-        <div className="min-h-screen h-full flex flex-col items-center justify-center bg-pastelLilac gap-10 py-10">
+        <div className="min-h-screen h-full flex flex-col items-center justify-center gap-10 py-10">
             <Counter
                 variant="primary"
                 title="Main Counter"
