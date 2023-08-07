@@ -10,6 +10,8 @@ const STORAGEBUCKET = import.meta.env.VITE_STORAGEBUCKET;
 const MESSAGINSENDERID = import.meta.env.VITE_MESSAGINSENDERID;
 const APPID = import.meta.env.VITE_APPID;
 
+console.log();
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: APIKEY,

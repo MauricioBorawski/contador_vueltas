@@ -3,7 +3,7 @@ import { useSecondaryCounters } from './hooks';
 import { Button } from '@chakra-ui/react';
 import { Counter, Alert, SecondaryCounters } from './components';
 
-function App() {
+export const App = () => {
     const { counters, create } = useSecondaryCounters();
 
     const [isOpen, setIsOpen] = useState(false);
