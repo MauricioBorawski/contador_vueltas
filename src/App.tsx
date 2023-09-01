@@ -14,11 +14,13 @@ function App() {
 
     const totalCount = counters.reduce((acc, counter) => {
         return acc + counter.value;
-            }, 0);
+    }, 0);
 
     return (
         <div className="min-h-screen h-full flex flex-col items-center justify-center gap-10 py-10">
-        <h1 className="text-xl font-bold text-slate-50">Vueltas totales: {totalCount}</h1>
+            <h1 className="text-xl font-bold text-slate-50">
+                Vueltas totales: {totalCount}
+            </h1>
             <Counter
                 variant="primary"
                 title="Main Counter"
