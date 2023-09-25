@@ -16,13 +16,7 @@ const parsedCounters = (): SecondaryCounter[] => {
     if (stringifyCounters) {
         return JSON.parse(stringifyCounters);
     } else {
-        return [
-            {
-                title: 'Main Counter',
-                value: 0,
-                id: 'maincounter',
-            },
-        ];
+        return [];
     }
 };
 
